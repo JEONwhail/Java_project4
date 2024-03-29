@@ -10,7 +10,7 @@ public class Ex_01 {
 
 	public static void main(String[] args) {
 
-		int age = 10;
+		int age = 7;
 		if ( age >= 8 ){ //나이가 8살 이상이면
 			System.out.println("학교에 다닙니다");
 		}

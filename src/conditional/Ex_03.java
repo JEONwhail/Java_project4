@@ -1,16 +1,12 @@
 package conditional;
 
-/*
- * <if~elseif~else문>
- * 나이에 따라 다른 문장 출력하기
- * */
 public class Ex_03 {
 
 	public static void main(String[] args) {
 
-		int age = 30;
+		int age = 7;
 		
-		if (age < 8) { // 나이가 8살 미만이면
+		if (age < 8) { // ㄴ나이가 8살 미만이면
 			System.out.println("미 취학 아동입니다.");
 		} else if (age < 14) { // 나이가 14살 미만이라면
 			System.out.println("초등학생 입니다.");

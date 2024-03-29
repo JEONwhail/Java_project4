@@ -9,11 +9,11 @@ package conditional.quiz;
 public class Quiz_04 {
 
 	public static void main(String[] args) {
-		int i = 160;
+		int i = 50;
 		
-		if(i>100 && i<200) { //i가 100<i<200 범위에 포함된다면
+		if(i>100 && i<200) { 
 			System.out.println("i는 100이상 200이하 입니다");
-		}else { //그렇지 않다면
+		}else { 
 			System.out.println("i는 100보다 작거나 200보다 큽니다");
 		}
 	}

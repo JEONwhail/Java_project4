@@ -1,7 +1,7 @@
 package conditional.quiz;
 
 /*
- * <elseif문>
+ * if문!!!
  * 학생의 점수를 저장할 변수를 선언하고 0~99 사이의 값을 저장하세요.
  * 
  * 점수가 90~99 이면 "수"
@@ -14,15 +14,15 @@ public class Quiz_06 {
 
 	public static void main(String[] args) {
 		
-		int score = 50; //학생의 점수
+		int score = 90;
 
-		if(score >= 90 && score<=99) { //학생의 점수가 90점 이상이면
+		if(score >= 90 && score<=99) { 
 			System.out.println("수");
-		}else if(score >= 80) { //점수가 80이상이면
+		}else if(score >= 80) { 
 			System.out.println("우");
-		}else if(score >= 70) { //점수가 70이상이면
+		}else if(score >= 70) { 
 			System.out.println("미");
-		}else { //모두 아니라면
+		}else { 
 			System.out.println("양");
 		}
 

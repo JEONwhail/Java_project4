@@ -6,7 +6,7 @@ package loop;
 public class Ex_02 {
 
 	public static void main(String[] args) {
-		//반복문없이 처리
+		// 반복문없이 처리
 		System.out.println(1);
 		System.out.println(2);
 		System.out.println(3);
@@ -17,12 +17,12 @@ public class Ex_02 {
 		System.out.println(8);
 		System.out.println(9);
 		System.out.println(10);
-		
-		//반복문으로 처리
-		int num = 1; //출력할 숫자
+		// 반복문으로 처리
+		int num = 1; // 출력할 숫자
 		while (num <= 10) { // 조건을 만족하는 동안 블록을 10번 실행
 			System.out.println(num);
 			num++; // num을 1씩 증가시켜서 출력
+
 		}
 
 	}

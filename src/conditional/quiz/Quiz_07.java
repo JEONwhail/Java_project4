@@ -1,7 +1,7 @@
 package conditional.quiz;
 
 /*
- * <switch문>
+ * switch
  * char타입 변수를 선언하고 문자 b,c,d 중에서 하나를 입력하세요.
  * 문자에 해당하는 동물을 출력하세요.
  * 
@@ -13,7 +13,7 @@ package conditional.quiz;
 public class Quiz_07 {
 
 	public static void main(String[] args) {
-		char animal = 'b'; // b,c,d
+		char animal = 'b'; 
 
 		switch (animal) {
 		case 'b':

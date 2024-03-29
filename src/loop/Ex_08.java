@@ -16,7 +16,7 @@ public class Ex_08 {
 			sum = sum + i; //i이 홀수라면 sum에 더하기
 		}
 		
-		System.out.println("1부터 10까지의 홀수들의 합은 " + sum + "입니다.");
+		System.out.println("1부터 10까지의 홀수들의 합은" + sum + "입니다");
 	}
 
 }
