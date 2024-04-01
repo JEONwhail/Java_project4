@@ -35,10 +35,4 @@ public class Quiz8 {
 //			System.out.println();
 //		}
 //	}
-		int = '*';
-		
-		for()
-		
-	
 	}
-}
